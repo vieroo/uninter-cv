@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+  height: 100vh;
+}
+
+header {
+  background-color: #010409;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #8cff00;
+}
+
+nav ul li a:hover {
+  color: #8a2be2;
+}
+
+.container {
+  margin: auto 10rem;
+}
+
+.apresentacao,
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.apresentacao h1 {
+  font-size: 32px;
+  color: #e0e0e0;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+
+.nome {
+  color: #8a2be2;
+}
+
+.techs {
+  text-transform: uppercase;
+  color: #8a2be2;
+}
+
+.apresentacao-subtitulo {
+  margin-top: 0.5rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 5rem;
+}
+
+.sobre img {
+  display: block;
+  width: 250px;
+  border-radius: 50%;
+  border: 2px solid #8cff00;
+  transition: 0.5s;
+}
+
+.sobre img:hover {
+  cursor: pointer;
+  border: 2px solid #8a2be2;
+  transform: scale(1.08);
+}
+
+.texto {
+  margin-top: 1.5rem;
+  font-size: 18px;
+  color: #e0e0e0;
+}
+
+.subtitulo {
+  color: #e0e0e0;
+  margin-top: 5rem;
+  text-transform: uppercase;
+}
+
+.hobbies-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  column-gap: 3rem;
+}
+
+.hobbies-images img {
+  width: 400px;
+  border-radius: 8px;
+  border: 2px solid #8cff00;
+  transition: 0.5s;
+}
+
+.hobbies-images img:hover {
+  cursor: pointer;
+  border: 2px solid #8a2be2;
+  transform: scale(1.08);
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: #010409;
+  text-align: center;
+  padding: 2rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
