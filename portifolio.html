@@ -1,11 +1,81 @@
-<!-- Seção de Habilidades -->
-<section>
-  <h2>Habilidades</h2>
-  <ul>
-    <li>JavaScript</li>
-    <li>React</li>
-    <li>Node.js</li>
-    <li>PostgreSQL</li>
-    <li>HTML & CSS</li>
-  </ul>
-</section>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/portifolio.css" />
+    <title>Portifolio - Eduardo Viero</title>
+  </head>
+  <body>
+    <!-- Barra de navegação -->
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="./index.html">Sobre</a></li>
+          <li><a href="./formacao.html">Formação</a></li>
+          <li><a href="./portifolio.html">Portifolio</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- COntainer par ajustes -->
+    <main class="container">
+      <!-- Secao do portifolio -->
+      <section class="portifolio">
+        <h1 class="titulo">Meu Portifolio</h1>
+        <p class="texto">
+          Aqui está uma breve apresentação de alguns projetos realizados e seus
+          respectivos links no GitHub
+        </p>
+        <div class="linha">
+          <div class="card">
+            <img
+              src="./images/TicTacToe.png"
+              alt="TicTacToe"
+              class="img-card"
+            />
+            <p class="titulo-card">Jogo da Velha</p>
+            <p class="texto-card">
+              Jogo da Velha feito utilizando HTML, CSS E JAVASCRIPT
+            </p>
+            <a href="https://github.com/vieroo/TicTacToeJS" class="link"
+              >Clique para acessar</a
+            >
+          </div>
+          <div class="card">
+            <img
+              src="./images/Calculadora.png"
+              alt="Calculadora"
+              class="img-card"
+            />
+            <p class="titulo-card">Calculadora</p>
+            <p class="texto-card">
+              Calculadora feita utilizando HTML, CSS E JAVASCRIPT.
+            </p>
+            <a href="https://github.com/vieroo/calculadoraJS" class="link"
+              >Clique para acessar</a
+            >
+          </div>
+          <div class="card">
+            <img
+              src="./images/blackNextJs.png"
+              alt="LojaOnline"
+              class="img-card"
+            />
+            <p class="titulo-card">Loja Online</p>
+            <p class="texto-card">
+              Projeto de uma loja online feito utilizando NextJS
+            </p>
+            <a href="https://github.com/vieroo/black-nextjs" class="link"
+              >Clique para acessar</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <p>Desenvolvido por Eduardo Viero</p>
+    </footer>
+  </body>
+</html>
